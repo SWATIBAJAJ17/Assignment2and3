@@ -1,0 +1,199 @@
+*{
+    margin:auto;
+    padding:0;
+    box-sizing: border-box;
+    font-size:26px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+}
+
+.container-1{
+    display:flex;
+    width:90%;
+    margin:10% auto;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.big-box{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom:25px;
+}
+.head-span{
+    font-size:150%;
+    font-weight:200;
+}
+hr{
+    margin-left:15px;
+    margin-right: 15px;
+    width:70px;
+    display: inline;
+    color:orangered;
+    
+}
+
+.box2{
+    display:flex;
+    margin-bottom:3%;
+    justify-content: center;
+}
+
+h1{
+    font-size:100%;
+    font-weight: 100;
+}
+
+.icon-class{
+    font-size:100%;
+    color:orangered;
+    margin-right:15%;
+}
+
+.box3{
+    width:30%;
+     border:2px solid green;
+    min-width:40%;
+    margin-bottom: 20px;
+    text-align: center;
+    border:1px solid orangered;
+    border-radius:5px;
+    padding:25px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    padding:4px;
+    flex:1 1 70vh;
+    max-height: 50vh;
+}
+
+h3{
+    font-size:70%;
+    font-weight:100;
+    color: orangered;
+    margin-top: 5%;
+}
+h3:after{
+    display: block;
+    content:" ";
+    margin:6% auto ;
+    height:2px;
+    background-color:red;
+    width:55% ;
+}
+
+.para{
+    margin-bottom:30px;
+}
+
+strike{
+    color:red;
+    font-size:120%;
+}
+
+
+input[type=checkbox]{
+    size:20px;
+    width:20px;
+    height:20px;
+    text-align: left;
+    font-size:100%;
+}
+
+label{
+    font-size:90%;
+}
+
+.icon-hidden{
+    display:none;
+}
+
+@media only screen and (max-width:374px){
+    *{
+        font-size:16px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: white;
+    }
+    hr{
+        display:none;
+    }
+    .icon-hidden{
+        display: inline-block;
+    }
+    .icon-class{
+        margin-right:2%;
+        font-size:220%;
+    }
+    .head-span{
+        margin-left: 18px;
+        font-weight:900;
+        font-size:220%;
+    }
+    .box2{
+        display:none;
+    }
+    .head{
+        margin-bottom: 22%;
+    }
+    .box3{
+        width:80%;
+        height:100vh;
+    }
+    .heading{
+        font-size:180%;
+        margin-bottom: 20%;
+    }
+    h3:after{
+        width:75% ;
+        background-color: black;
+    }
+    strike{
+        font-size:150%;
+    }
+    .check{
+        font-size:150%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

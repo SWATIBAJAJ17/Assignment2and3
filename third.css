@@ -1,0 +1,88 @@
+*{
+    margin:auto;
+    padding:0;
+    box-sizing: border-box;
+    font-size:26px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-2{
+    background-image:url("s1.jpg");
+    filter: blur(8px);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width:100%;
+}
+
+.sub{
+    background-color: rgb(255,255,255); /* Fallback color */
+    background-color: rgba(255,255,255, 0.4);
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 100%;
+    max-width: 80%;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border:1px solid orangered;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    border-radius:6px;
+}
+
+.head{
+    font-size:120%;
+    font-weight:200;
+    color:orangered;
+    font-weight: 100;
+    margin-bottom:4%;
+    width:60%;
+}
+
+input[type=text]{
+    width:80%;
+    border:1px solid orangered;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    margin-bottom:5% ;
+    border-radius: 5px;
+}
+
+button{
+    background-color: orangered;
+    padding:5px;
+    color:white;
+    width:100%;
+    border-radius:20px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    font-size:80%;
+}
+
+.cover{
+    width:40%;
+}
+
+.box{
+    display:flex;
+    flex-direction: column;
+}
+
+@media only screen and (max-width:374px){
+    *{
+        font-size:16px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color:white;
+    }
+    .container-2{
+        background-image:url("s4.png");
+        filter: blur(8px);
+        background-size:cover;
+        background-repeat: repeat;
+        height: 80vh;
+        width:100%;
+    }
+}
